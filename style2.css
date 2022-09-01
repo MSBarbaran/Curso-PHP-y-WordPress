@@ -1,0 +1,194 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+*{
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* overflow: hidden; */
+}
+
+
+/* header */
+.nav__principal{
+    border-left: 1rem solid #4b8127;
+    background-color: #f2f2f2;
+    padding: 1.5rem;
+}
+.nav__principal ul li{
+    list-style-type: none;
+    display: inline-block;
+}
+.nav__principal a{
+    text-decoration: none;
+    color: #252525;
+    padding: 1rem;
+}
+.nav__principal ul li a:hover{
+    letter-spacing: 1px;
+    
+    font-weight: bold;
+    color: #252525;
+}
+
+/* contacto */
+.container{
+    height: 90vh;
+    background: #76b852; /* fallback for old browsers */
+    background: rgb(141,194,111);
+    background: linear-gradient(90deg, rgba(141,194,111,1) 0%, rgba(118,184,82,1) 50%);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;   
+    padding-top: 30px;   
+    margin-bottom: 30px;  
+}
+
+.form {
+  margin: auto;
+  position: relative;
+  /* z-index: 1; */
+  background: #FFFFFF;
+  max-width: 460px;
+  padding: 30px 35px 10px;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+.form input,
+.form textarea {
+  outline: 0;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+.form .contacto_btn {
+  text-transform: uppercase;
+  outline: 0;
+  background: rgb(76, 175, 80);
+  width: 100%;
+  border: 0;
+  padding: 15px ;
+  color: #FFFFFF;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+}
+.form .contacto_btn:hover,.form .contacto_btn:active,.form .contacto_btn:focus {
+  background: #43A047;
+} 
+/* footer */
+footer{
+    background-color:#333 ;
+    clear: both;
+    color: #ccc;
+    padding: 10px 0;
+    text-align: center;
+    /* para que el footer quede siempre abajo */
+    position:fixed ;
+    bottom: 0;
+    width: 100%;  
+}
+/* tienda/personajes */
+.personajes_contenedor{
+  padding: 1rem;
+}
+.personajes_botonera li a:hover{
+    letter-spacing: 0.5px;
+    text-decoration: underline;
+    font-weight: bold;
+    color:#4b8127;
+}
+.contenedor_img{
+  width: 25%;
+ 
+}
+.contenedor_img img{
+  width: 100%; 
+}
+.personaje_descripcion{
+  padding: 1rem;
+  margin: auto 2rem;
+}
+.personaje_descripcion h2{
+    padding-bottom: 1rem;
+}
+
+.contenedor_personajes{
+  display: inline-block;
+}
+/* nosotros */
+.btn_nosotros{
+  padding: 1rem;
+}
+.btn_nosotros ul li, .personajes_botonera ul li{
+  list-style-type: none;
+  display: inline-block;
+  text-decoration: none;
+  padding: 1rem;
+  font-weight: bold;
+}
+.btn_nosotros a, .personajes_botonera a{
+  text-decoration: none;
+  color: #252525;
+}
+.info_nosotros{
+  padding: 1rem;
+}
+.contenedor_img{
+  width: 50%;
+  height: max-content;
+  padding: 0.5rem;
+
+}
+.contenedor_img img{
+  width: 100%;
+} 
+.contenedor_personajes{
+    display:flex;
+    flex-direction: row;
+}
+.contenedor_parrafo{
+    width: 60%;
+    height: auto;
+}
+/* home */
+.home{
+    /* height: 100vh;
+    width: 100vw; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 40px;
+    
+    overflow: hidden;
+    box-sizing: border-box;
+}
+.home .home_img {
+    margin-top: 70px;
+    padding-right: 40px;
+}
+.home .home_img img{
+    width: 70vh;
+}
+.home .content{
+    margin-top: -90px;
+    padding-left: 80px;
+}
+.home .content h1{
+   color:#4b8127;
+   font-size: 80px;
+   animation: fadeIn 1s linear backwards;
+}
+.home .content h3{
+    color:#333;
+    font-size: 30px;
+    font-weight: 400;
+    animation: fadeIn 1s linear backwards;
+    animation-delay: 0.2s ;
+ }
+
+ 

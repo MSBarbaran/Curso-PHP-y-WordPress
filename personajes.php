@@ -62,7 +62,7 @@
             <p class='contenedor_parrafo'> <?php echo $descripcion; ?></p>
             <div class='contenedor_img'> 
                 <img src="<?php echo $img ?>" alt="">
-            </div>
+            </div> 
         </div>
     </div>
 

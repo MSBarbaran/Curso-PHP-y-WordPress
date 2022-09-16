@@ -11,8 +11,15 @@
                         <textarea name="mensaje" id="" cols="30" rows="10" placeholder="Escribí tu mensaje" class="mensaje"></textarea>
                         <input type="submit" value="Enviar Consulta"  class="contacto_btn">
                     </form>
+                    <?php
+                         if (isset($_GET['e'])){
+                         echo "<h4> Mensaje enviado con éxito </h4>";
+                         }
+                     ?>
                 </div>
+  
             <!-- </div> -->
     </div>
+   
 
 <?php include('footer.php') ?>
